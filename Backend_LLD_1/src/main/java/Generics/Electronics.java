@@ -1,10 +1,10 @@
 package Generics;
 
 public class Electronics extends Item {
-    String author;
+    int warranty;
 
-    public Electronics(String id, String name, double price, int quantity, String author) {
+    public Electronics(String id, String name, double price, int quantity, int warranty) {
         super(id, name, price, quantity);
-        this.author = author;
+        this.warranty = warranty;
     }
 }
